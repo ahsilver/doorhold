@@ -1,0 +1,1 @@
+{"kind": "worker", "entry": "_worker.js", "bindings": [{"type": "d1", "name": "DB"}, {"type": "r2", "name": "FILES"}], "worker": {"compatibility_date": "2026-08-01", "not_found_handling": "single-page-application"}, "title": "DoorHold d80: two-step for tenant + owner portals, no card surcharge on debit + fee notice, late ACH bounce NSF, gross-up fee option, shared email sender"}

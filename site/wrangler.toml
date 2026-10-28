@@ -1,0 +1,18 @@
+name = "doorhold"
+main = "_worker.js"
+compatibility_date = "2026-08-01"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "doorhold"
+database_id = "REPLACE-WITH-YOUR-D1-DATABASE-ID"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "doorhold-files"

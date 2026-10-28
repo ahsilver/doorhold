@@ -1,0 +1,609 @@
+[
+[
+"107 oak morgetge",
+"#/loan/3"
+],
+[
+"107 oak mortgage",
+"#/loan/3"
+],
+[
+"107 oak avenue morgage",
+"#/loan/3"
+],
+[
+"107 oak ave mortage",
+"#/loan/3"
+],
+[
+"107 oak loan",
+"#/loan/3"
+],
+[
+"willow mortgage",
+"#/loan/3"
+],
+[
+"show me 107 oak mortgage",
+"#/loan/3"
+],
+[
+"open 107 oak morgtage",
+"#/loan/3"
+],
+[
+"107 oak",
+"#/property/162814"
+],
+[
+"107 oak avenue",
+"#/property/162814"
+],
+[
+"open 177 river",
+"#/property/185262"
+],
+[
+"maple dr",
+"#/property/185262"
+],
+[
+"191 sunset st",
+"#/property/"
+],
+[
+"191 sunset tenants",
+"?s=units"
+],
+[
+"191 sunset st tenant",
+"?s=units"
+],
+[
+"163 hill lease",
+"?s=units"
+],
+[
+"212 forest teneants",
+"?s=units"
+],
+[
+"198 meadow bills",
+"#/bills"
+],
+[
+"maple documents",
+"#/pdocs/185262"
+],
+[
+"maple hud",
+"#/pdocs/185262"
+],
+[
+"177 river docs",
+"#/pdocs/185262"
+],
+[
+"maple profit",
+"?s=deal"
+],
+[
+"149 ash expenses",
+"?s=deal"
+],
+[
+"184 grove expnses",
+"?s=deal"
+],
+[
+"212 forest p&l",
+"?s=deal"
+],
+[
+"100 main transactions",
+"?s=deal"
+],
+[
+"amigos home fixers",
+"#/vendor/1008439"
+],
+[
+"how much did i pay amigos",
+"INFO"
+],
+[
+"who owes rent",
+"INFO"
+],
+[
+"mortgages",
+"#/loans"
+],
+[
+"blah blah",
+"QUESTION"
+],
+[
+"paid 107 oak mortgage 1200 from chase",
+"CONFIRM_OR_Q"
+],
+[
+"recurring",
+"#/repeating"
+],
+[
+"repeating payments",
+"#/repeating"
+],
+[
+"monthly bills",
+"#/repeating"
+],
+[
+"163 hill recurring",
+"#/repeating?q="
+],
+[
+"shellpoint recurring",
+"#/repeating?q="
+],
+[
+"update mortgage 163 hill",
+"#/loanupd/4"
+],
+[
+"163 hill update mortgage",
+"#/loanupd/4"
+],
+[
+"mortgage payments 163 hill",
+"#/loan/4"
+],
+[
+"change mortgage 191 sunset",
+"#/loanupd/5"
+],
+[
+"import check",
+"#/reconcile"
+],
+[
+"reconciliation",
+"#/reconcile"
+],
+[
+"add a house",
+"#/properties?add=1"
+],
+[
+"new property",
+"#/properties?add=1"
+],
+[
+"upload mortgage statement",
+"#/loanstmt"
+],
+[
+"mortgage statement 163 hill",
+"#/loanstmt?loan=4"
+],
+[
+"upload statement",
+"#/loanstmt"
+],
+[
+"statement 107 oak",
+"#/loanstmt?loan=3"
+],
+[
+"blanket loan",
+"#/loans"
+],
+[
+"loan covers several houses",
+"#/loans"
+],
+[
+"edit an expense",
+"#/money"
+],
+[
+"how do i change a payment",
+"#/money"
+],
+[
+"books closed",
+"#/more"
+],
+[
+"212 Forest Avenue just paid $500, received in bank account 2306",
+{
+"status": "question",
+"intent": "payment",
+"property_id": 165553,
+"amount": 50000,
+"options_min": 2
+}
+],
+[
+"212 forest paid 500 into chase oaks",
+{
+"status": "confirm",
+"intent": "payment",
+"property_id": 165553,
+"amount": 50000,
+"bank_account_id": 2
+}
+],
+[
+"Omar Brandt paid 1200",
+{
+"status": "confirm",
+"intent": "payment",
+"property_id": 162814,
+"amount": 120000
+}
+],
+[
+"omar brandt paid 1200 into bank of america 1111",
+{
+"status": "confirm",
+"intent": "payment",
+"property_id": 162814,
+"amount": 120000,
+"bank_account_id": 1
+}
+],
+[
+"received 500 from 163 hill zelle",
+{
+"status": "question",
+"intent": "payment",
+"property_id": 162809,
+"amount": 50000,
+"options_min": 2
+}
+],
+[
+"recieved 1,650 from 111 s waltr",
+{
+"status": "confirm",
+"intent": "payment",
+"property_id": 162814,
+"amount": 165000
+}
+],
+[
+"received 500 from 212 forest zelle into bank of america jordan oaks",
+{
+"status": "confirm",
+"intent": "payment",
+"property_id": 165553,
+"amount": 50000,
+"bank_account_id": 3
+}
+],
+[
+"191 sunset tenant paid 1800 zelle",
+{
+"status": "confirm",
+"intent": "payment",
+"property_id": 162747,
+"amount": 180000
+}
+],
+[
+"charge 191 sunset late fee 50",
+{
+"status": "confirm",
+"intent": "charge",
+"property_id": 162747,
+"amount": 5000
+}
+],
+[
+"late fee 75 for 107 oak",
+{
+"status": "confirm",
+"intent": "charge",
+"property_id": 162814,
+"amount": 7500
+}
+],
+[
+"charge 163 hill unit 2 late fee 35",
+{
+"status": "confirm",
+"intent": "charge",
+"property_id": 162809,
+"amount": 3500
+}
+],
+[
+"paid home depot 250 for 100 main from oaks 3333",
+{
+"status": "confirm",
+"intent": "expense",
+"property_id": 182856,
+"amount": 25000,
+"bank_account_id": 8
+}
+],
+[
+"paid pse&g 140.25 for 212 forest from td bank",
+{
+"status": "confirm",
+"intent": "expense",
+"property_id": 165553,
+"amount": 14025,
+"bank_account_id": 6
+}
+],
+[
+"paid pest pros $120 for 198 meadow from chase 2222",
+{
+"status": "confirm",
+"property_id": 165557,
+"amount": 12000,
+"bank_account_id": 4
+}
+],
+[
+"107 oak water bill 85",
+{
+"status": "question",
+"property_id": 162814,
+"amount": 8500,
+"options_min": 2
+}
+],
+[
+"pat tenant14 paid $900 cash",
+{
+"status": "question",
+"intent": "payment",
+"property_id": 162809,
+"amount": 90000,
+"options_min": 2
+}
+],
+[
+"vendors",
+"#/vendors"
+],
+[
+"vendor list",
+"#/vendors"
+],
+[
+"gave $5,000 deposit on 99 maple court",
+{
+"status": "question",
+"intent": "purchase_deposit",
+"options_min": 2
+}
+],
+[
+"gave 5000 earnest money on 191 sunset from chase oaks",
+{
+"status": "confirm",
+"intent": "purchase_deposit",
+"property_id": 162747,
+"amount": 500000,
+"bank_account_id": 2
+}
+],
+[
+"wired the contract deposit of $2,500 for 163 hill",
+{
+"status": "question",
+"intent": "purchase_deposit",
+"property_id": 162809,
+"amount": 250000,
+"options_min": 2
+}
+],
+[
+"add a blanket loan",
+"#/loans?add=1"
+],
+[
+"new mortgage",
+"#/loans?add=1"
+],
+[
+"enter a loan",
+"#/loans?add=1"
+],
+[
+"broker paid me 3000 for 212 forest, 2000 rent 2000 security 1000 commission into chase oaks",
+{
+"status": "confirm",
+"intent": "net_receipt",
+"property_id": 165553,
+"bank_account_id": 2
+}
+],
+[
+"manager sent 1500 for 191 sunset, rent 2000, fee 200, sink 300 into bank of america 1111",
+{
+"status": "confirm",
+"intent": "net_receipt",
+"property_id": 162747,
+"bank_account_id": 1
+}
+],
+[
+"broker paid me 3000 for 212 forest, 2000 rent 2000 security 1000 commission",
+{
+"status": "question",
+"intent": "net_receipt",
+"options_min": 2
+}
+],
+[
+"where do i take off broker commission from a deposit",
+"#/net/0"
+],
+[
+"financials",
+"#/money"
+],
+[
+"show me insurance by month",
+"#/transactions?cat=insurance&group=month"
+],
+[
+"insurance every month",
+"#/transactions?cat=insurance&group=month"
+],
+[
+"all transactions",
+"#/transactions"
+],
+[
+"new expense",
+"#/new/expense"
+],
+[
+"pay someone",
+"#/new/expense"
+],
+[
+"what's the simple way to enter an expense",
+"#/new/expense"
+],
+[
+"transfer between accounts",
+"#/new/transfer"
+],
+[
+"reconcile my bank",
+"#/match"
+],
+[
+"match bank lines",
+"#/match"
+],
+[
+"how do i reconcile chase",
+"#/match"
+],
+[
+"add a water bill",
+"#/new/water"
+],
+[
+"budgets",
+"#/budgets"
+],
+[
+"upload a scanned hud",
+"#/closing"
+],
+[
+"scan the hud",
+"#/closing"
+],
+[
+"import closing statement",
+"#/closing"
+],
+[
+"take a photo of the hud",
+"#/closing"
+],
+[
+"paid back yossi 20k from chase",
+"#/new/payback"
+],
+[
+"delete 233 orchard",
+"#/property/185263"
+],
+[
+"archived houses",
+"#/archived"
+],
+[
+"pay back a loan",
+"#/new/payback"
+],
+[
+"import tenants from excel",
+"#/import/tenants"
+],
+[
+"import from a csv file",
+"#/import"
+],
+[
+"coming from another system import my properties from excel",
+"#/import/properties"
+],
+[
+"alex put 45k into bank of america",
+"#/new/contrib"
+],
+[
+"paid back issiak 45k from bank of america",
+"#/new/payback"
+],
+[
+"alex paid back issiak 5k personally",
+"#/new/payback"
+],
+[
+"owner contribution",
+"#/new/contrib"
+],
+[
+"jordan lent the company 10k",
+"#/new/contrib"
+],
+[
+"move out the tenant at 212 forest on aug 31",
+"#/tenant/"
+],
+[
+"new applicant for 212 forest",
+"#/property/"
+],
+[
+"jordan paid 500 for repair at 233 orchard personally",
+"#/new/expense"
+],
+[
+"add a house at 15 oak st",
+"#/properties?add=1&addr="
+],
+[
+"money in from owner 500 for 205 ridge",
+{
+"status": "confirm",
+"intent": "contribution",
+"property_id": 167879,
+"amount": 50000
+}
+],
+[
+"transfer 500 from boa to chase",
+"#/new/transfer"
+],
+[
+"transfer 2000 from td bank to chase 2222",
+"#/new/transfer"
+],
+[
+"paid amex 1200 from chase",
+"#/new/transfer"
+],
+[
+"paid the 3333 card 300 from boa",
+"#/new/transfer"
+],
+[
+"credit on card 85 home depot refund",
+"#/new/cardrefund"
+]
+]
